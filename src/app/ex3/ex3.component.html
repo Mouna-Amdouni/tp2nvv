@@ -1,0 +1,12 @@
+
+    donner un premier nombre 
+    <input type="number" (keyup)="entrer($event)" #val1/>{{val1.value}}<br/>
+    le carré est{{carr(val1.value)}}<br/>
+    donner un deuxieme nombre
+    <br/>
+    <input type="number" (keyup)="valeur2($event)" #val2/>{{val2.value}}
+<button (click)="somme(val1.value,val2.value)">somme</button>
+
+
+  
+
